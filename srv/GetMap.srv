@@ -1,0 +1,6 @@
+# High-resolution orthoimage together with its associated elevation raster (DEM) in one atomic message
+geographic_msgs/BoundingBox bbox
+int16 height
+int16 width
+---
+gisnav_msgs/OrthoImage3D image
