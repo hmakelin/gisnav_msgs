@@ -38,7 +38,6 @@ find_package(geographic_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OrthoImage3D.msg"
-  "srv/GetMap.srv"
   DEPENDENCIES sensor_msgs geographic_msgs
  )
 
